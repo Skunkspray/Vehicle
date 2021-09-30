@@ -28,18 +28,20 @@ public class Vehicle {
     } else {
       result = false;
     }
-    
     return result;
   }
 
+  //accessor
   public String getMake(){
     return make;
   }
   
+  //accessor
   public String getModel(){
     return model;
   }
   
+  //accessor
   public int getYear(){
     return year;
   }

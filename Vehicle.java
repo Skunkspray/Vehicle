@@ -16,6 +16,8 @@ public class Vehicle {
   }
 
   // Compares two Vehicle objects
+  // Vehicles are equal only if ALL of the instance data
+  // matches including make, model, and year.
   public boolean equals(Vehicle that){  //  that = yourCar
     boolean result = false;
     
@@ -26,18 +28,20 @@ public class Vehicle {
     } else {
       result = false;
     }
-    
     return result;
   }
 
+  //accessor
   public String getMake(){
     return make;
   }
   
+  //accessor
   public String getModel(){
     return model;
   }
   
+  //accessor
   public int getYear(){
     return year;
   }

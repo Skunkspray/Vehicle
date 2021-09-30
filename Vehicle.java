@@ -16,6 +16,8 @@ public class Vehicle {
   }
 
   // Compares two Vehicle objects
+  // Vehicles are equal only if ALL of the instance data
+  // matches including make, model, and year.
   public boolean equals(Vehicle that){  //  that = yourCar
     boolean result = false;
     

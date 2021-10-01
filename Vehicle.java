@@ -6,7 +6,7 @@ public class Vehicle {
   
   private String make;
   private String model;
-  private int year;  //4 digit int
+  private int year;  //4 digit int is needed here
   
   // Constructor.  Creates a new Vehicle
   public Vehicle(String newMake, String newModel, int newYear){
